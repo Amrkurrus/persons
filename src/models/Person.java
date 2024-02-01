@@ -2,7 +2,7 @@ package models;
 
 public abstract class Person implements Payable, Comparable<Person> {
     protected int id;
-    protected static int idCounter = 1;
+    protected static int idCounter = 0;
     protected String name;
     protected String surname;
     @Override
